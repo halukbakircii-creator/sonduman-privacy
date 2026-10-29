@@ -1,1 +1,85 @@
 # sonduman-privacy
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Son Duman - Gizlilik Politikası ve KVKK</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #334155;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 36px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+    }
+    h1 {
+      color: #0f172a;
+      font-size: 26px;
+      margin-top: 0;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 12px;
+    }
+    h2 {
+      color: #1e293b;
+      font-size: 18px;
+      margin-top: 28px;
+      margin-bottom: 8px;
+    }
+    p, li {
+      font-size: 15px;
+      color: #475569;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .date {
+      color: #94a3b8;
+      font-size: 13px;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Son Duman Gizlilik Politikası ve KVKK Metni</h1>
+    <div class="date">Son Güncelleme: 30 Ekim 2026</div>
+
+    <h2>1. Veri Sorumlusu</h2>
+    <p>Son Duman ekibi ("Uygulama") olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") ve ilgili mevzuat uyarınca kullanıcılarımızın kişisel verilerinin gizliliğini ve güvenliğini en üst düzeyde korumayı taahhüt ediyoruz.</p>
+
+    <h2>2. İşlenen Kişisel Veriler ve Amaçları</h2>
+    <p>Uygulama kapsamında sunulan sigara bırakma takip süreçlerinin yönetilmesi adına aşağıdaki veriler işlenmektedir:</p>
+    <ul>
+      <li><strong>Hesap Bilgileri:</strong> E-posta adresiniz ve şifrelenmiş parola kayıtları; oturum açma, hesap güvenliği ve 6 haneli OTP doğrulaması amacıyla işlenir.</li>
+      <li><strong>Alışkanlık ve Tüketim Kayıtları:</strong> Günlük içilen sigara adedi, paket tutarı, bırakma hedefi, kriz anı kayıtları ve tetikleyiciler; yalnızca sağlık analizi, tasarruf hesaplamaları ve kişiselleştirilmiş grafiklerin üretilmesi amacıyla kullanılır.</li>
+      <li><strong>Konum Verisi (İsteğe Bağlı):</strong> Yalnızca kriz anı bildirimi yapıldığında kullanıcının açık rızasıyla kaydedilen yaklaşık konum bilgisi; ortam tetikleyici analizleri için kullanılır. Arka planda kesintisiz veya gizli konum izleme yapılmaz.</li>
+    </ul>
+
+    <h2>3. Veri Güvenliği ve Saklama İlkeleri</h2>
+    <p>Verileriniz, Supabase altyapısında Satır Düzeyinde Güvenlik (Row Level Security - RLS) kuralları ve endüstri standardı şifrelemeyle korunmaktadır. Bilgileriniz kesinlikle üçüncü şahıslara, reklam ağlarına veya ticari kurumlara satılmaz ve devredilmez.</p>
+
+    <h2>4. Veri Aktarımı</h2>
+    <p>Kişisel verileriniz yalnızca sistemin çalışması için zorunlu olan teknik servis sağlayıcılarıyla (kimlik doğrulama/veritabanı için Supabase, e-posta gönderimi için Resend) ve yasal bir yükümlülük bulunması durumunda yetkili kamu mercileri ile paylaşılabilir.</p>
+
+    <h2>5. Veri Sahibi Hakları ve Hesap Silme</h2>
+    <p>Kullanıcılarımız, KVKK'nın 11. maddesi kapsamındaki tüm haklara sahiptir. Dilediğiniz zaman uygulama içerisindeki <strong>Ayarlar > Hesabı Sil</strong> seçeneği üzerinden oturum, profil, tüketim ve kriz kayıtları dahil olmak üzere sistemdeki tüm verilerinizi anında ve kalıcı olarak silebilirsiniz.</p>
+
+    <h2>6. İletişim</h2>
+    <p>Gizlilik politikası ve veri talepleriniz ile ilgili her türlü soru için <strong>destek@sonduman.com.tr</strong> adresinden bizimle iletişime geçebilirsiniz.</p>
+  </div>
+</body>
+</html>
